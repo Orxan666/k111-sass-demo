@@ -1,0 +1,80 @@
+// $nm-width:200px;
+// $nm-height:200px;
+// $back-1:red;
+
+// .box{
+//   width: $nm-width;
+//   height: $nm-height;
+//   background: $back-1;
+// }
+
+// @mixin eli {
+//   width: 200px;
+//   height: 200px;
+//   background-color: blue !important;
+//   border: 2px solid red;
+// }
+
+// .box{
+// @include eli;
+//   #{&}-item{
+//     width: 100px;
+//     height: 100px;
+//     background-color: aqua;
+//   }
+// }
+// .big-text{
+//   @include eli();
+//   background-color: green;
+// }
+
+// @mixin myMixin($image) {
+//   background-image: $image;
+//   width: 200px;
+//   height: 200px;
+//   border: 2px solid black;
+// }
+// .box{
+//   @include myMixin(url("../images/download.jpg"))
+// }
+// @mixin box-txt {
+//   width: 200px;
+//   height: 200px;
+//   background-color: blue;
+//   border: 2px solid red;
+//   color: white;
+//   font-size: 50px;
+// }
+// @mixin flex($aslan,$ramiq,$seymur) {
+//   justify-content: $aslan;
+//   align-items: $ramiq;
+//   flex-direction: $seymur;
+//   display: flex
+// }
+
+// .boxes{
+//   @include flex(space-between,center,row-reverse);
+//   .box{
+//     @include box-txt()
+//   }
+// }
+// ---------
+// h6{
+//   color: black;
+// }
+// .box1{
+//   width: 100px;
+//   height: 100px;
+//   margin: 15px;
+//   background-color: red;
+//   h6{
+//     color: wheat;
+//   }
+// }
+// .box2{
+//   @extend .box1;
+// h2{
+//   @extend h6  
+// }
+// }
+// -----------------
